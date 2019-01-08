@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://www.happinessabscissa.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.happinessabscissa.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.happinessabscissa.com/collections/all.atom"/>
+  <title>Happiness Abscissa</title>
+  <updated>2016-02-24T16:34:00-05:00</updated>
+  <author>
+    <name>Happiness Abscissa</name>
+  </author>
+  <entry>
+    <id>https://www.happinessabscissa.com/products/4459966724</id>
+    <published>2016-02-24T16:34:00-05:00</published>
+    <updated>2016-02-24T16:34:00-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.happinessabscissa.com/products/three-scent-tin"/>
+    <title>Three Scent tin</title>
+    <s:type>Soap Tin</s:type>
+    <s:vendor>Happiness Abscissa</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0951/8508/products/tin-tilted.png?v=1458158330" /></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Happiness Abscissa<br />
+        <strong>Type: </strong>Soap Tin<br />
+        <strong>Price: </strong>
+            34.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Includes all three scents: Omaha, Brooklyn and Uruguay. A creamy and luxurious lather, enriched with beurre de karité (shea butter).</p>
+<p>Olive and vegetable oils soap base.</p>
+<p>Gift tin contains 3 individually wrapped 128g / 4.5oz. soap bars.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.happinessabscissa.com/products/4459966724</id>
+      <title>Default Title</title>
+      <s:price currency="USD">34.00</s:price>
+      <s:sku>MSoap</s:sku>
+      <s:grams>544</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.happinessabscissa.com/products/4208848516</id>
+    <published>2016-01-18T10:51:00-05:00</published>
+    <updated>2016-01-18T10:51:00-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.happinessabscissa.com/products/resist"/>
+    <title>Resist</title>
+    <s:type>Candle</s:type>
+    <s:vendor>Happiness Abscissa</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0951/8508/products/resist.png?v=1453138129" /></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Happiness Abscissa<br />
+        <strong>Type: </strong>Candle<br />
+        <strong>Price: </strong>
+            36.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Spicy and musky scent with black pepper and pine infused with patchouli and sandalwood.</p>
+<p>9.5 oz / 270 g<br>8 hours burning time</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.happinessabscissa.com/products/4208848516</id>
+      <title>Default Title</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku>RCandle</s:sku>
+      <s:grams>4309</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.happinessabscissa.com/products/1377794244</id>
+    <published>2015-09-05T20:08:00-04:00</published>
+    <updated>2015-09-05T20:08:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.happinessabscissa.com/products/eau-de-brooklyn-2"/>
+    <title>Eau de Brooklyn</title>
+    <s:type>Candle</s:type>
+    <s:vendor>Happiness Abscissa</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0951/8508/products/brooklyn.png?v=1453138008" /></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Happiness Abscissa<br />
+        <strong>Type: </strong>Candle<br />
+        <strong>Price: </strong>
+            36.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Delightfully mellow scent composed of mandarin and bitter orange with hints of jasmine and musk.</p>
+<p>9.5 oz / 270 g<br>8 hours burning time</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.happinessabscissa.com/products/1377794244</id>
+      <title>Default Title</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku>Bcandle</s:sku>
+      <s:grams>4309</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.happinessabscissa.com/products/1377790852</id>
+    <published>2015-09-05T20:07:00-04:00</published>
+    <updated>2015-09-05T20:07:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.happinessabscissa.com/products/eau-de-brooklyn-1"/>
+    <title>Eau de Brooklyn</title>
+    <s:type>Perfume</s:type>
+    <s:vendor>Happiness Abscissa</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0951/8508/products/store-brooklyn-perfume.png?v=1441498107" /></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Happiness Abscissa<br />
+        <strong>Type: </strong>Perfume<br />
+        <strong>Price: </strong>
+            42.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Crisp lemon, mandarin and bitter orange with hints of clear jasmin supported by musk.</p>
+<p>30mL / 1fl.oz.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.happinessabscissa.com/products/1377790852</id>
+      <title>Default Title</title>
+      <s:price currency="USD">42.00</s:price>
+      <s:sku>Bperfume</s:sku>
+      <s:grams>1814</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.happinessabscissa.com/products/1377788932</id>
+    <published>2015-09-05T20:05:00-04:00</published>
+    <updated>2015-09-05T20:05:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.happinessabscissa.com/products/eau-de-brooklyn"/>
+    <title>Eau de Brooklyn</title>
+    <s:type>Soap Tin</s:type>
+    <s:vendor>Happiness Abscissa</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0951/8508/products/store-brooklyn-soap.png?v=1455920289" /></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Happiness Abscissa<br />
+        <strong>Type: </strong>Soap Tin<br />
+        <strong>Price: </strong>
+            34.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p> </p>
+<p>A creamy and luxurious lather, enriched with beurre de karité (shea butter).</p>
+<p>Olive and vegetable oils soap base.</p>
+<p>Gift tin contains 3 individually wrapped 128g / 4.5oz. soap bars</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.happinessabscissa.com/products/1377788932</id>
+      <title>Default Title</title>
+      <s:price currency="USD">34.00</s:price>
+      <s:sku>Bsoap</s:sku>
+      <s:grams>6123</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.happinessabscissa.com/products/1377725444</id>
+    <published>2015-09-03T15:02:00-04:00</published>
+    <updated>2015-09-03T15:02:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.happinessabscissa.com/products/copy-of-omaha-candle"/>
+    <title>Eau d&apos;Omaha</title>
+    <s:type>Candle</s:type>
+    <s:vendor>Happiness Abscissa</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0951/8508/products/omaha.png?v=1453138110" /></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Happiness Abscissa<br />
+        <strong>Type: </strong>Candle<br />
+        <strong>Price: </strong>
+            36.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Fresh and crisp scent of green outdoors with touches of basil and lemon paired with the spicy opening of nutmeg.</p>
+<p>9.5 oz / 270 g<br>8 hours burning time</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.happinessabscissa.com/products/1377725444</id>
+      <title>Default Title</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku>Ocandle</s:sku>
+      <s:grams>907</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.happinessabscissa.com/products/1093856068</id>
+    <published>2015-08-09T15:27:00-04:00</published>
+    <updated>2015-08-09T15:27:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.happinessabscissa.com/products/eau-duruguay-1"/>
+    <title>Eau d&apos;Uruguay</title>
+    <s:type>Perfume</s:type>
+    <s:vendor>Happiness Abscissa</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0951/8508/products/store-uruguay-perfume.png?v=1441496727" /></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Happiness Abscissa<br />
+        <strong>Type: </strong>Perfume<br />
+        <strong>Price: </strong>
+            42.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Bergamot, lemon, with green bamboo, hints of black pepper, dry woods and white musks.</p>
+<p>30mL / 1fl.oz.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.happinessabscissa.com/products/1093856068</id>
+      <title>Default Title</title>
+      <s:price currency="USD">42.00</s:price>
+      <s:sku>Uperfume</s:sku>
+      <s:grams>1814</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.happinessabscissa.com/products/1093855300</id>
+    <published>2015-08-09T15:27:00-04:00</published>
+    <updated>2015-08-09T15:27:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.happinessabscissa.com/products/eau-domaha-1"/>
+    <title>Eau d&apos;Omaha</title>
+    <s:type>Perfume</s:type>
+    <s:vendor>Happiness Abscissa</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0951/8508/products/store-omaha-perfume.png?v=1441496665" /></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Happiness Abscissa<br />
+        <strong>Type: </strong>Perfume<br />
+        <strong>Price: </strong>
+            42.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Fresh green outdoor notes, touches of basil, lemon, hints of nutmeg, with blond woods and warm amber. </p>
+<p>30mL / 1fl.oz.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.happinessabscissa.com/products/1093855300</id>
+      <title>Default Title</title>
+      <s:price currency="USD">42.00</s:price>
+      <s:sku>Operfume</s:sku>
+      <s:grams>1814</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.happinessabscissa.com/products/1093851396</id>
+    <published>2015-08-09T14:59:00-04:00</published>
+    <updated>2015-08-09T14:59:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.happinessabscissa.com/products/eau-duruguay"/>
+    <title>Eau d&apos;Uruguay</title>
+    <s:type>Soap Tin</s:type>
+    <s:vendor>Happiness Abscissa</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0951/8508/products/store-uruguay-soap.png?v=1455920995" /></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Happiness Abscissa<br />
+        <strong>Type: </strong>Soap Tin<br />
+        <strong>Price: </strong>
+            34.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><meta charset="utf-8">
+<p> </p>
+<p>A creamy and luxurious lather, enriched with beurre de karité (shea butter).</p>
+<p>Olive and vegetable oils soap base.</p>
+<p>Gift tin contains 3 individually wrapped 128g / 4.5oz soap bars</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.happinessabscissa.com/products/1093851396</id>
+      <title>Default Title</title>
+      <s:price currency="USD">34.00</s:price>
+      <s:sku>Usoap</s:sku>
+      <s:grams>6123</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.happinessabscissa.com/products/1093843844</id>
+    <published>2015-08-09T14:59:00-04:00</published>
+    <updated>2015-08-09T14:59:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.happinessabscissa.com/products/eau-domaha"/>
+    <title>Eau d&apos;Omaha</title>
+    <s:type>Soap Tin</s:type>
+    <s:vendor>Happiness Abscissa</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0951/8508/products/store-omaha-soap.png?v=1455920998" /></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Happiness Abscissa<br />
+        <strong>Type: </strong>Soap Tin<br />
+        <strong>Price: </strong>
+            34.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>A creamy and luxurious lather, enriched with beurre de karité (shea butter).</p>
+<p>Olive and vegetable oils soap base.</p>
+<p>Gift tin contains 3 individually wrapped 128g / 4.5oz. soap bars</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.happinessabscissa.com/products/1093843844</id>
+      <title>Default Title</title>
+      <s:price currency="USD">34.00</s:price>
+      <s:sku>Osoap</s:sku>
+      <s:grams>6123</s:grams>
+    </s:variant>
+  </entry>
+</feed>

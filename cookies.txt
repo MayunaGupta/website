@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.happinessabscissa.com	TRUE	/	FALSE	1999999999	_shopify_y	b285db6a-bc93-4cce-ba84-b3f87ad2aae1
+www.happinessabscissa.com	TRUE	/	FALSE	1999999999	_landing_page	%2F
+
