@@ -72,10 +72,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-<style>
-
-    * {
+  <style>
+            * {
       box-sizing: border-box;
     }
 
@@ -94,7 +92,13 @@
       padding : 55px 15px;
     }
 
-   
+    #exTab2 h3 {
+      color : white;
+      background-color: #428bca;
+      padding : 55px 15px;
+    }
+
+    /* remove border radius for the tab */
 
     #exTab1 .nav-pills > li > a {
       border-radius: 4px 4px 0 0 ;
@@ -102,17 +106,37 @@
 
     /* change border radius for the tab , apply corners on top*/
 
-    
+    #exTab3 .nav-pills > li > a {
+      border-radius: 4px 4px 0 0 ;
+    }
 
-</style>
+    #exTab3 .tab-content {
+      color : white;
+      background-color: #428bca;
+      padding : 55px 15px;
+    }
 
 
+
+
+
+  </style>
+  <script type="text/javascript">
+    $('#myTabs').click('show', function(e) {  
+    paneID = $(e.target).attr('href');
+    src = $(paneID).attr('data-src');
+    // if the iframe hasn't already been loaded once
+    if($(paneID+" iframe").attr("src")=="")
+    {
+        $(paneID+" iframe").attr("src",src);
+    }
+});
+  </script>
 </head>
-
-
 <body>
 
-<div class="nav-mobile">
+
+  <div class="nav-mobile">
     <nav class="nav-bar" role="navigation">
       <div class="wrapper">
         
@@ -123,11 +147,10 @@
 <ul class="site-nav" id="accessibleNav">
 
         <li >
-          <a href="index.html#about" class="site-nav__link">About</a>
+          <a href="index.html#himadri" class="site-nav__link">About</a>
         </li>
 
-
-
+  
   
   
   
@@ -137,9 +160,11 @@
 <ul class="site-nav" id="accessibleNav">
   
     
+    
+  
   
     
-       <li  class="services-all">
+        <li  class="services-all">
           <a href="login.html" class="site-nav__link site-nav__linknodrop">Login</a>
         </li>
       
@@ -153,11 +178,11 @@
           <a href="members.html" class="site-nav__link site-nav__linknodrop">People</a>
         </li>
 
-        
-          
-       <li  class="services-all">
+        <li  class="services-all">
           <a href="fourm.html" class="site-nav__link site-nav__linknodrop">Notices</a>
         </li>
+          
+      
       
     
      
@@ -171,13 +196,13 @@
           <a href="gallery.html" class="site-nav__link">Gallery</a>
         </li>
   
-  
 </ul>
 </div>
       </div>
     </nav>
   </div>
-<div class="page-wrapper">
+
+  <div class="page-wrapper">
 
     <header class="site-header" role="banner">
       <div class="nav-bar grid--full large--hide">
@@ -206,7 +231,7 @@
 
             
               <a href="index.html" itemprop="url">
-                <img src="img/logo.png" alt="Himadri" itemprop="logo">
+                <img src="../img/logo.png" alt="Himadri" itemprop="logo">
               </a>
             
 
@@ -219,7 +244,8 @@
 
         </div>
 
-       
+      
+
       </div>
 
       <div class="wrapper">
@@ -232,8 +258,8 @@
           
 
           
-            <a href="index.html#top" itemprop="url">
-              <img src="img/logo.png" alt="Himadri" itemprop="logo"><!--logo --->
+            <a href="index.html#himadri" itemprop="url">
+              <img src="img/logo.png" alt="Himadri" width="40%" itemprop="logo"><!---logo -->
             </a>
           
 
@@ -266,180 +292,86 @@
 <ul class="site-nav" id="accessibleNav">
   
    
+  
+    
+
+    
+    
       
         <li  class="services-all">
-          <a href="login.html" class="site-nav__link site-nav__linknodrop">Login</a>
+          <a href="login.html" class="site-nav__link site-nav__linknodrop">Complaints</a>
         </li>
+      
+    
+  
+    
+
+    
     
       
         <li  class="services-all">
           <a href="members.html" class="site-nav__link site-nav__linknodrop">People</a>
         </li>
       
-        
-      
+    
         <li  class="services-all">
           <a href="fourm.html" class="site-nav__link site-nav__linknodrop">Notices</a>
         </li>
+    
+
+    
+    
+      
+  
   
     
-         <li >
+  <li >
           <a href="form.html" class="site-nav__link">Today's Menu</a>
         </li>
 
-        <li >
+  <li >
           <a href="gallery.html" class="site-nav__link">Gallery</a>
         </li>
-
-    
+  
 </ul>
 </div>
         
         
-</nav>
+      
+          </nav>
 
-
-
-
-
-</div>
-</header>
-
-  <div id="exTab1" class="container"> 
-  <ul  class="nav nav-pills">
-      <li class="active">
-            <a  href="#1a" data-toggle="tab">Monday</a>
-      </li>
-      <li><a href="#2a" data-toggle="tab">Tuesday</a>
-      </li>
-      <li><a href="#3a" data-toggle="tab">Wednsday</a>
-      </li>
-        <li><a href="#4a" data-toggle="tab">Thursday</a>
-      </li>
-      <li><a href="#5a" data-toggle="tab">Friday</a>
-      </li>
-      <li><a href="#6a" data-toggle="tab">Saturday</a>
-      </li>
-      <li><a href="#7a" data-toggle="tab">Sunday</a>
-      </li>
-    </ul>
-
-      <div class="tab-content clearfix">
-        <div class="tab-pane active" id="1a">
-          <h3>Breakfast</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>Lunch</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>snacks</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>Dinner</h3>
-          <p>tulsi,adrak eliachi</p>
-
-        </div>
-
-        <div class="tab-pane active" id="2a">
-          <h3>Breakfast</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>Lunch</h3>
-          <p>tulsi,adrak butter</p>
-          <br>
-          <h3>snacks</h3>
-          <p>tulsi,adrak buteeer</p>
-          <br>
-          <h3>Dinner</h3>
-          <p>tulsi,adrak eliachi</p>
-          
-        </div>
-
-        <div class="tab-pane active" id="3a">
-          <h3>Breakfast</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>Lunch</h3>
-          <p>tulsi,adrak buttte</p>
-          <br>
-          <h3>snacks</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>Dinner</h3>
-          <p>tulsi,adrak eliachi</p>
-          
-        </div>
-
-        <div class="tab-pane active" id="4a">
-          <h3>Breakfast</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>Lunch</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>snacks</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>Dinner</h3>
-          <p>tulsi,adrak eliachi</p>
-          
-        </div>
-
-        <div class="tab-pane active" id="5a">
-          <h3>Breakfast</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>Lunch</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>snacks</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>Dinner</h3>
-          <p>tulsi,adrak eliachi</p>
-          
-        </div>
-
-        <div class="tab-pane active" id="6a">
-          <h3>Breakfast</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>Lunch</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>snacks</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>Dinner</h3>
-          <p>tulsi,adrak eliachi</p>
-        </div>
-          
         
 
-        <div class="tab-pane active" id="7a">
-          <h3>Breakfast</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>Lunch</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>snacks</h3>
-          <p>tulsi,adrak eliachi</p>
-          <br>
-          <h3>Dinner</h3>
-          <p>tulsi,adrak eliachi</p>
-          </div>
-        </div>
+        
+
+      </div>
+    </header>
+
+
+<div>
+  <p >vjhdfdibhjhj</p>
+  <iframe id="forum_embed"
+        src="javascript:void(0)"
+        scrolling="no"
+        frameborder="0"
+        width="900"
+        height="700"
+        >
+  </iframe>
+  <script type="text/javascript">
+   document.getElementById('forum_embed').src =
+ 'https://groups.google.com/forum/embed/?place=forum/himadri-hostel-2k16-17'
+ + '&showsearch=true&showpopout=true&showtabs=false'
+ + '&parenturl=' + encodeURIComponent(window.location.href);
+  </script>
   </div>
-
 </div>
-
-  
-  
-
-
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
-
-  
- </body> </html>
+</html>
+<!--https://docs.google.com/forms/d/e/1FAIpQLSegHj3e7nnR11TQFtDVXw5Oyk75MSjiRiaTXp2tzqeCVcbWog/viewform?usp=sf_link>
 
